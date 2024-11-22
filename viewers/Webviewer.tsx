@@ -9,8 +9,9 @@ const Webviewer: React.FC = () => {
   return (
     <View style={styles.container}>
       <WebView
-        source={{uri: 'https://food-diary-window.vercel.app/diary'}}
-        // source={{uri: 'http://localhost:5173/report'}}
+        // source={{uri: 'https://food-diary-window.vercel.app/diary'}}
+        // source={{uri: 'https://www.naver.com/'}}
+        source={{uri: 'http://localhost:5173/report'}}
         style={styles.webview}
       />
     </View>
